@@ -31,7 +31,6 @@ public:
             else r = mid - 1;
         }
         
-        // Median not in shorter — read the answer from partition state
         int shorterOnLeft = l;
         int longerOnLeft = before - shorterOnLeft;
         
